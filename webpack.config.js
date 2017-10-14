@@ -15,7 +15,7 @@ const DashboardPlugin = require('webpack-dashboard/plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 // Default client app entry file
-const entry = [path.join(paths.source, 'client.js')];
+const entry = [path.join(paths.source, 'index.js')];
 
 plugins.push(
   // Creates vendor chunk from modules coming from node_modules folder
