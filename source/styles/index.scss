@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+@import '../../node_modules/bulma/bulma.sass';
+
+@import 'base/normalize';
+@import 'base/breakpoints';
+@import 'base/app';
+
+@import 'helpers';
+@import 'variables';
+@import 'Navbar';
+@import 'Contents';
+@import 'Footer';
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}

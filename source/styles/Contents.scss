@@ -1,0 +1,56 @@
+.content:not(:last-child) {
+	margin-bottom: 0;
+}
+
+.section {
+	h3 {
+		font-size: 30px;
+		font-weight: 500;
+	}
+	h4 {
+		font-size: 25px;
+		font-weight: 500;
+	}
+}
+.dark-section {
+	background-color: $background-color;
+	color: #fff;
+	h3,
+	h4 {
+		color: #fff;
+	}
+}
+.light-section {
+	background-color: #fff;
+	border-bottom: 1px solid $grey;
+}
+
+.button-white {
+	background-color: #fff;
+	color: $primary-text;
+	border-radius: 30px;
+	padding: 0.8rem 4rem;
+	font-weight: 500;
+}
+.button-isPrimary {
+	background-color: $blue;
+	color: #fff;
+	border-radius: 30px;
+	border: 1px solid $blue;
+	padding: 0.8rem 4rem;
+	font-weight: 500;
+	&:hover {
+		color: #fff;
+	}
+}
+.button-isSecondary {
+	background-color: #fff;
+	color: $blue;
+	border-radius: 30px;
+	border: 1px solid $blue;
+	padding: 0.8rem 4rem;
+	font-weight: 500;
+	&:hover {
+		color: $blue;
+	}
+}
