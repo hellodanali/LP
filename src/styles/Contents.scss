@@ -3,6 +3,7 @@
 }
 
 .section {
+	padding: 3rem 10%;
 	h3 {
 		font-size: 30px;
 		font-weight: 500;
@@ -11,12 +12,25 @@
 		font-size: 25px;
 		font-weight: 500;
 	}
+	p {
+		font-size: 14px;
+		line-height: 1.7rem;
+		text-align: left;
+		font-weight: 400;
+	}
+	,
+	.subtitle {
+		text-align: left;
+		font-size: 1.2rem;
+		font-weight: 500;
+	}
 }
 .dark-section {
 	background-color: $background-color;
 	color: #fff;
 	h3,
-	h4 {
+	h4,
+	.subtitle {
 		color: #fff;
 	}
 }

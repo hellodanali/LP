@@ -4,12 +4,40 @@
 	padding: 0 5rem;
 	font-size: 14px;
 	a,
-	a:hover {
+	a:hover,
+	a.navbar-item:hover {
 		color: $grey;
 	}
 	.request-demo {
 		border: 2px solid $grey;
 		border-radius: 5rem;
 		padding: 3px 10px;
+	}
+}
+
+a.navbar-item:hover {
+	background-color: $background-color;
+	color: $grey;
+}
+
+.navbar-burger {
+	background-color: transparent;
+	border: none;
+	color: #fff;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: #fff;
+		outline: none !important;
+	}
+}
+
+.navbar-menu.is-active {
+	background-color: $background-color;
+	text-align: right;
+	box-shadow: none;
+	a:hover {
+		background-color: rgba(0, 0, 0, 0.2);
 	}
 }

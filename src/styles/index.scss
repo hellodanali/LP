@@ -3,7 +3,6 @@
 
 @import 'base/normalize';
 @import 'base/breakpoints';
-@import 'base/app';
 
 @import 'helpers';
 @import 'variables';
@@ -12,5 +11,5 @@
 @import 'Footer';
 
 * {
-  font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
