@@ -46,11 +46,17 @@ class Contents extends Component {
 								man braid prism crucifix vaporware irony kombucha PBR&B viral.
 							</p>
 						</div>
-						<div className="column  is-6" />
+						<div className="column is-5 is-offset-1 is-hidden-mobile
+">
+							<img src="../styles/img/blockchain_is_secure.png" />
+						</div>
 					</div>
 
 					<div className="columns">
-						<div className="column  is-6" />
+						<div className="column is-5 is-offset-1 is-hidden-mobile
+">
+							<img src="../styles/img/but_its_inaccessible.png" />
+						</div>
 						<div className="column  is-6">
 							<div className="subtitle">
 								...but it's also kind of inaccessible
@@ -78,11 +84,15 @@ class Contents extends Component {
 								man braid prism crucifix vaporware irony kombucha PBR&B viral.
 							</p>
 						</div>
-						<div className="column  is-6" />
+						<div className="column is-6 is-hidden-mobile
+">
+							<img src="../styles/img/programmable_middleware.png" />
+						</div>
 					</div>
 
 					<div className="columns">
 						<div className="column  is-6" />
+
 						<div className="column  is-6">
 							<div className="subtitle">
 								...but it's also kind of inaccessible
@@ -125,15 +135,7 @@ class Contents extends Component {
 								<a className="button-isSecondary">Learn More</a>
 							</div>
 						</div>
-						<div className="column  is-6">
-							<div className="subtitle">Blockchain is secure</div>
-							<p>
-								Wayfarers humblebrag sustainable brunch taiyaki. Messenger bag
-								tumblr adaptogen tumeric. Hashtag crucifix twee adaptogen
-								single-origin coffee selfies try-hard. Hexagon biodiesel tumblr
-								man braid prism crucifix vaporware irony kombucha PBR&B viral.
-							</p>
-						</div>
+						<div className="column  is-6" />
 					</div>
 				</section>
 
