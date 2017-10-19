@@ -33,6 +33,12 @@ class Contents extends Component {
 				</section>
 
 				<section className="section dark-section">
+					<div className="is-hidden-mobile">
+						<img
+							className="background-png"
+							src="../styles/img/isometric_grid.png"
+						/>
+					</div>
 					<h4 className="has-text-centered margin-b">
 						Existing blockchain tech is cool, but...
 					</h4>
