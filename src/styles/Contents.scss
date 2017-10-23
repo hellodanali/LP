@@ -76,8 +76,24 @@
 	}
 }
 
-.background-png {
-	max-height: 70% !important;
-	position: absolute;
-	width: auto !important;
+.isometric-grid {
+	background-image: url('../assets/img/isometric_grid.png');
+	background-size: 70% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.header_bubbles_bkg {
+	background-image: url('../assets/img/header_bubbles_left.png'),
+		url('../assets/img/header_bubbles_right.png');
+	background-size: 180px auto;
+	background-repeat: no-repeat;
+	background-position: left top, right top;
+}
+
+.white_bubbles_bkg {
+	background-image: url('../assets/img/white_bubbles_right.png');
+	background-size: 250px auto;
+	background-repeat: no-repeat;
+	background-position: right top;
 }
