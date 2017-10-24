@@ -11,13 +11,14 @@
       "npm run clean && cross-env NODE_ENV=\"production\" webpack",
     "client:preview":
       "npm run clean && cross-env NODE_ENV=\"production\" webpack-dev-server",
+    "client:build:heroku": "npm run clean && NODE_ENV=production webpack",
     "clean": "rm -rf ./build",
     "lint-hook":
       "eslint ./source/js ./webpack ./*.js -f table --ext .js --ext .jsx",
     "lint": "npm run lint-hook --silent || true",
     "hook-add": "prepush install",
     "hook-remove": "prepush remove",
-    "postinstall": "npm run client:build",
+    "postinstall": "npm run client:build:heroku",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
