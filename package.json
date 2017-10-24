@@ -21,7 +21,7 @@
     "postinstall": "npm run client:build:heroku",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.7.2",
     "babel-eslint": "^8.0.0",
@@ -58,9 +58,7 @@
     "svgo": "^0.7.2",
     "svgo-loader": "^1.2.1",
     "webpack-dashboard": "^1.0.0-5",
-    "webpack-dev-server": "^2.6.1"
-  },
-  "dependencies": {
+    "webpack-dev-server": "^2.6.1",
     "babel-polyfill": "^6.23.0",
     "es6-promise": "^4.1.1",
     "eslint": "^3.19.0",
