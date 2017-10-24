@@ -11,7 +11,7 @@
       "npm run clean && cross-env NODE_ENV=\"production\" webpack",
     "client:preview":
       "npm run clean && cross-env NODE_ENV=\"production\" webpack-dev-server",
-    "client:build:heroku": "npm run clean && NODE_ENV=production webpack",
+    "client:build:heroku": "npm run clean && webpack",
     "clean": "rm -rf ./build",
     "lint-hook":
       "eslint ./source/js ./webpack ./*.js -f table --ext .js --ext .jsx",
