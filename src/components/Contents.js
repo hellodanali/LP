@@ -4,9 +4,9 @@ import middleware_img from '../assets/img/programmable_middleware.png';
 import inaccessible_img from '../assets/img/but_its_inaccessible.png';
 import foundation from '../assets/img/foundation@2x.png';
 import inaccessible_box from '../assets/img/inaccessible_box@2x.png';
-import blockchainagnostic from '../assets/img/blockchainagnostic_placeholder@2x.png';
+import blockchainagnostic from '../assets/img/blockchain_agnostic@2x.png';
 import campustap from '../assets/img/campustap_placeholder@2x.png';
-
+import rapidDev_img from '../assets/img/rapid_dev@2x.png';
 class Contents extends Component {
 	render() {
 		return (
@@ -28,7 +28,10 @@ class Contents extends Component {
 					<div className="columns has-text-centered">
 						<div className="column is-2" />
 						<div className="column is-8">
-							<img src={foundation} className="is-hidden-mobile margin-b" />
+							<img
+								src={foundation}
+								className="is-hidden-mobile margin-b foundation-img"
+							/>
 							<div>
 								<h3>The Next Foundational Technology</h3>
 							</div>
@@ -72,8 +75,8 @@ class Contents extends Component {
 
 				<section className="section dark-section">
 					<div className="columns">
-						<div className="column is-6">
-							<img src={inaccessible_box} className="is-hidden-mobile" />
+						<div className="column is-6 is-hidden-mobile">
+							<img src={inaccessible_box} />
 						</div>
 						<div className="column  is-6">
 							<div className="subtitle">But it is inaccessible to most...</div>
@@ -154,13 +157,16 @@ class Contents extends Component {
 								logic and data aggregation" layer.
 							</p>
 						</div>
-						<div className="column  is-6">
+						<div className="column  is-5 is-offset-1">
 							<img src={inaccessible_img} className="is-hidden-mobile" />
 						</div>
 					</div>
 
 					<div className="columns margin-t-2">
-						<div className="column  is-6" />
+						<div className="column is-6 is-hidden-mobile
+">
+							<img src={rapidDev_img} />
+						</div>
 						<div className="column  is-6">
 							<div className="subtitle">Rapid Development</div>
 							<p>
@@ -197,8 +203,8 @@ class Contents extends Component {
 								platform.
 							</p>
 						</div>
-						<div className="column  is-6">
-							<img src={campustap} className="is-hidden-mobile" />
+						<div className="column  is-5 is-offset-1 is-hidden-mobile">
+							<img src={campustap} className="team-img" />
 						</div>
 					</div>
 				</section>

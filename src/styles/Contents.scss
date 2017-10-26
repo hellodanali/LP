@@ -2,8 +2,11 @@
 	&:not(:last-child) {
 		margin-bottom: 0;
 	}
-	@include lg, md {
+	@include xl, lg, md {
 		img {
+			width: 250px;
+		}
+		.foundation-img {
 			width: 200px;
 		}
 	}
@@ -125,7 +128,7 @@
 		url('../assets/img/header_bubbles_right.png');
 	background-size: 250px auto;
 	background-repeat: no-repeat;
-	background-position: left top, right top;
+	background-position: left top, 100% 100%;
 }
 
 .white_bubbles_bkg {

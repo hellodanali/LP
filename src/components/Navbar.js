@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from '../assets/img/logo.png';
 
 class Navbar extends Component {
 	state = {
@@ -15,7 +16,7 @@ class Navbar extends Component {
 				<nav className="navbar is-transparent">
 					<div className="navbar-brand">
 						<a className="navbar-item" href="#">
-							esprezzo
+							<img src={logo} />
 						</a>
 
 						<button
