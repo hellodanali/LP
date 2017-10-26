@@ -6,7 +6,7 @@ class Footer extends Component {
 			<footer className="footer">
 				<div className="container">
 					<div className="content columns  has-text-centered">
-						<div className="column">CampusTap</div>
+						<div className="column">Esprezzo</div>
 						<div className="column">Learn More</div>
 						<div className="column">Company</div>
 						<div className="column">Support</div>

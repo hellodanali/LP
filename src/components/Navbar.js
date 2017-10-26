@@ -15,7 +15,7 @@ class Navbar extends Component {
 				<nav className="navbar is-transparent">
 					<div className="navbar-brand">
 						<a className="navbar-item" href="#">
-							ChainTap
+							esprezzo
 						</a>
 
 						<button
@@ -42,19 +42,7 @@ class Navbar extends Component {
 					>
 						<div className="navbar-end">
 							<a className="navbar-item" target="_blank">
-								Why ChainTap?
-							</a>
-							<a className="navbar-item" target="_blank">
-								Tech
-							</a>
-							<a className="navbar-item" target="_blank">
-								About Us
-							</a>{' '}
-							<a className="navbar-item" target="_blank">
-								Blog
-							</a>
-							<a className="navbar-item" target="_blank">
-								<span className="request-demo">Request a demo</span>
+								<span className="request-demo">Contact Us</span>
 							</a>
 						</div>
 					</div>
