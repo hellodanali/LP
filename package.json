@@ -4,11 +4,12 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
+    "deploy": "npm run client:build && aws s3 sync build/ s3://esprezzo.io --profile esprezzo",
     "start": "node index.js",
     "client:dev": "webpack-dashboard -t 'TheChain' -- webpack-dev-server",
     "client:watch": "webpack",
     "client:build":
-      "npm run clean && cross-env NODE_ENV=\"production\" webpack",
+      "npm run clean && cross-env NODE_ENV=\"production\" webpack -p --progress",
     "client:preview":
       "npm run clean && cross-env NODE_ENV=\"production\" webpack-dev-server",
     "client:build:heroku": "npm run clean && webpack",
