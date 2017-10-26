@@ -2,15 +2,22 @@
 	&:not(:last-child) {
 		margin-bottom: 0;
 	}
-	@include lg {
+	@include lg, md {
 		img {
-			width: 250px;
+			width: 200px;
 		}
 	}
 }
 
 .section {
-	padding: 3rem 10%;
+	padding: 5rem 10%;
+	h1 {
+		font-weight: 500;
+		font-size: 40px;
+	}
+	h2 {
+		font-weight: 500;
+	}
 	h3 {
 		font-size: 30px;
 		font-weight: 500;
@@ -25,7 +32,9 @@
 		text-align: left;
 		font-weight: 400;
 	}
-	,
+	.sub-p {
+		font-size: 20px;
+	}
 	.subtitle {
 		text-align: left;
 		font-size: 1.2rem;
@@ -35,10 +44,17 @@
 .dark-section {
 	background-color: $background-color;
 	color: #fff;
+	h1,
 	h3,
-	h4,
+	h4 {
+		color: #fff;
+	}
+	h4 {
+		font-weight: 100;
+	}
 	.subtitle {
 		color: #fff;
+		font-size: 25px;
 	}
 }
 .light-section {
@@ -46,22 +62,43 @@
 	border-bottom: 1px solid $grey;
 }
 
+.email-input-box {
+	border-radius: 30px;
+	border: none;
+	padding: 0.5rem 2rem;
+	margin-right: 1rem;
+	outline: none;
+	font-weight: 200;
+	font-size: 16px;
+	background-color: $grey;
+}
+
 .button-white {
 	background-color: #fff;
 	color: $primary-text;
 	border-radius: 30px;
-	padding: 0.8rem 4rem;
+	padding: 0.4rem 2rem;
 	font-weight: 500;
+	border: none;
+
+	@include sm {
+		margin-top: 1rem;
+	}
 }
 .button-isPrimary {
+	cursor: pointer;
+	outline: none;
 	background-color: $blue;
 	color: #fff;
 	border-radius: 30px;
 	border: 1px solid $blue;
-	padding: 0.8rem 4rem;
+	padding: 0.4rem 2rem;
 	font-weight: 500;
 	&:hover {
 		color: #fff;
+	}
+	@include sm {
+		margin-top: 1rem;
 	}
 }
 .button-isSecondary {
@@ -77,16 +114,16 @@
 }
 
 .isometric-grid {
-	background-image: url('../assets/img/isometric_grid.png');
-	background-size: 70% auto;
+	background-image: url('../assets/img/isometric_grid2.png');
+	background-size: 90% auto;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: right top;
 }
 
 .header_bubbles_bkg {
 	background-image: url('../assets/img/header_bubbles_left.png'),
 		url('../assets/img/header_bubbles_right.png');
-	background-size: 180px auto;
+	background-size: 250px auto;
 	background-repeat: no-repeat;
 	background-position: left top, right top;
 }
