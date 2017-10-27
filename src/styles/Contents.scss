@@ -142,8 +142,8 @@
 }
 
 .header_bubbles_bkg {
-	background-image: url('../assets/img/header_bubbles_left.png'),
-		url('../assets/img/header_bubbles_right.png');
+	background-image: url('../assets/img/header_bubbles_left@2x.png'),
+		url('../assets/img/header_bubbles_right@2x.png');
 	background-size: 250px auto;
 	background-repeat: no-repeat;
 	background-position: left top, 100% 100%;
@@ -158,4 +158,11 @@
 	background-size: 250px auto;
 	background-repeat: no-repeat;
 	background-position: right top;
+}
+
+.left_bubbles_bkg {
+	background-image: url('../assets/img/header_bubbles_left@2x.png');
+	background-size: 250px auto;
+	background-repeat: no-repeat;
+	background-position: left top;
 }

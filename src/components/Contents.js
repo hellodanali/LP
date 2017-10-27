@@ -31,7 +31,7 @@ class Contents extends Component {
 									<label htmlFor="mce-EMAIL" />
 									<input
 										type="email"
-										value=""
+										// value=""
 										name="EMAIL"
 										className="email email-input-box"
 										id="mce-EMAIL"
@@ -106,7 +106,7 @@ class Contents extends Component {
 					</div>
 				</section>
 
-				<section className="section dark-section">
+				<section className="section dark-section left_bubbles_bkg">
 					<div className="columns">
 						<div className="column is-6 is-hidden-mobile image-align">
 							<div>
@@ -271,7 +271,7 @@ class Contents extends Component {
 								<label htmlFor="mce-EMAIL" />
 								<input
 									type="email"
-									value=""
+									// value=""
 									name="EMAIL"
 									className="email email-input-box"
 									id="mce-EMAIL"
