@@ -3,11 +3,8 @@
 		margin-bottom: 0;
 	}
 	@include xl, lg, md {
-		img {
+		.dark-section img {
 			width: 250px;
-		}
-		.foundation-img {
-			width: 200px;
 		}
 	}
 }

@@ -17,10 +17,6 @@ class Contents extends Component {
 						Blockchain technology for the modern developer
 					</p>
 					<div className="margin-t-2">
-						{/* <input className="email-input-box" placeholder="Enter your email" />
-						<button type="submit" className="button-isPrimary">
-							Subscribe
-						</button> */}
 						<div className="margin-t-2" id="mc_embed_signup">
 							<form
 								action="https://Esprezzo.us17.list-manage.com/subscribe/post?u=748152fb359be4abd50b3695c&amp;id=3a4f8cb97d"
@@ -65,6 +61,7 @@ class Contents extends Component {
 							<img
 								src={foundation}
 								className="is-hidden-mobile margin-b foundation-img"
+								style={{ width: '200' }}
 							/>
 							<div>
 								<h3>The Next Foundational Technology</h3>
@@ -74,8 +71,8 @@ class Contents extends Component {
 								frontier of development for enterprises, consumers and software
 								developers. Due to its decentralized architecture, immutable
 								ledger and highly secure framework, applications of the
-								technology will impact industries ranging from financial and
-								retail services to personal identity and cryptocurrency.
+								technology will impact industries ranging from finance and
+								retail to personal identity and cryptocurrency.
 							</p>
 						</div>
 						<div className="column is-2" />
@@ -85,19 +82,19 @@ class Contents extends Component {
 							<div className="subtitle">Blockchain Is powerful...</div>
 							<p>
 								<b>Secure</b>
-								{` - all transactions on a blockchain are Cryptographically secured and provide integrity`}
+								{` - All transactions on a blockchain are cryptographically stored and provide the highest level of data integrity.`}
 							</p>
 							<p>
 								<b>Decentralized</b>
-								{` - No ruling authority means no single point of failture`}
+								{` - Without one corer server controlling data, availability and access Blockchain is the next generation approach to data storage.`}
 							</p>
 							<p>
 								<b>Immutable</b>
-								{` - once data has been written to a blockchain no one, not even a system administrator, can change it`}
+								{` - Once data has been written to a blockchain. No one, not even a system administrator, can change it`}
 							</p>
 							<p>
 								<b>Highly Available</b>
-								{` - As the system is based on thousands of nodes in a peer-to-peer network, and teh data is replicated and updated on each and every node, downtime is no longer a conern `}
+								{` - As the system is based on thousands of nodes in a peer-to-peer network, and the data is replicated and updated on each and every node, downtime is no longer a concern.`}
 							</p>
 						</div>
 						<div className="column has-text-centered is-5 is-offset-1 is-hidden-mobile image-align
@@ -119,23 +116,23 @@ class Contents extends Component {
 						<div className="column  is-6">
 							<div className="subtitle">But it is inaccessible to most...</div>
 							<p>
-								<b>Storage Write Times</b>
-								{` - Consensys mechanisms creates a more secure method to
+								<b>Storage Write Times Are Too Slow</b>
+								{` - Consensys mechanisms create a more secure method to
 									validate data but slows down the speed at which data can be
-									written`}
+									written.`}
 							</p>
 							<p>
-								<b>Cryptography</b>
-								{` - Is highly soughtafter but hard for inexperienced developers to learn`}
+								<b>Cryptography Is Hard To Learn</b>
+								{` - Cryptography is highly sought after but hard for inexperienced developer to learn.`}
 							</p>
 							<p>
-								<b>Back-End Code </b>
-								{` - Blockchain is built on top of low level software languages such as Go, C and C++, making it inaccessible to front end engineers`}
+								<b>Code Requires Extensive Backend Knowledge</b>
+								{` - Blockchain is built on top of low level software languages such as Go, C and C++, making it inaccessible to frontend engineers.`}
 							</p>
 
 							<p>
-								<b>Infrastructure Management</b>
-								{` - As the core of blockchain is decentralized, managing and maintaining the network performance can pose a challenge for people lacking DevOps experiences`}
+								<b>Managing Network Performance Requires DevOps Experiences</b>
+								{` - As the core of blockchain is decentralized, managing and maintaining the network performance can pose a challenge for people lacking DevOps experience.`}
 							</p>
 						</div>
 					</div>
@@ -150,13 +147,11 @@ class Contents extends Component {
 							<div className="subtitle">Programmable middleware</div>
 							<p>
 								Our goal is to make it seamless for enterprises and modern
-								product developers to build data rich internet and mobile
-								products that are interoperable with Blockchain technology. We
-								have created a private blockchain that is 100% compatible with
-								the Ethereum protocol which tracks upstream changes and
-								improvements. Our implementation is based on the Parity Ethereum
-								client which is written in Rust and is widely accepted as teh
-								most used, expedient and secure implementation of Ethereum.
+								product developers to build data rich web and mobile products
+								that are interoperable with Blockchain technology. Our
+								middleware will allow for the exchange of private and public
+								data from enterprise applications to smart contracts on the
+								public contracts on the public Ethereum network.
 							</p>
 						</div>
 						<div className="column is-6 is-hidden-mobile image-align
@@ -175,13 +170,15 @@ class Contents extends Component {
 						</div>
 
 						<div className="column  is-6">
-							<div className="subtitle">Blockchain Agnostic</div>
+							<div className="subtitle">Blockchain agnostic</div>
 							<p>
-								We have abstracted a middleware layer to allow for the exchange
-								of private and public data from enterprise applications to smart
-								contracts on the public Ethereum network. We will facilitate
-								cross blockchain connections with any chain that supports the
-								Ethereum protocol.
+								We have created private blockchain that is 100% compatible with
+								the Ethereum Protocol which tracks upstream changes and
+								improvements. we have abstracted a middleware layer to allow for
+								the exchange of private and public data from enterprise
+								applications to smart contracts on the public Ethereum network.
+								We will facilitate cross blockchain connections with any chain
+								that supports the Ethereum protocol.
 							</p>
 						</div>
 					</div>
@@ -190,13 +187,13 @@ class Contents extends Component {
 						<div className="column  is-6">
 							<div className="subtitle">Serverless Approach</div>
 							<p>
-								JS developers and mobile devs want a GraphQL layer or
-								"serverless" approach to accessing the data their applications
-								depend on. These devs may not want to or know how to speak
-								directly to the Ethereum JSON-RPC API and it might not be
-								advantageous for them to do so. To empower these developers we
-								will offer a caching layer and more importantly a "business
-								logic and data aggregation" layer.
+								JS and mobile developers want a GraphQL layer or "Serverless"
+								approach to accessing the data their applications depends on.
+								These developers may not want to or know how to speak directly
+								to the Ethereum JSON-RPC API and it might not be advantageous
+								for them to do so. To empower these developers we will offer a
+								caching layer and more importantly a "business logic and data
+								aggregation" layer.
 							</p>
 						</div>
 						<div className="column  is-5 is-offset-1 is-hidden-mobile image-align">
@@ -233,14 +230,15 @@ class Contents extends Component {
 						<div className="column  is-6">
 							<div className="subtitle">CampusTap</div>
 							<p>
-								CampusTap has been a leading career networking platform for
+								CampusTap has been a leading career networking application for
 								education institutions and corporations since 2013. We currently
 								serve over 60 organizations across the country and reach over 1M
-								people. Throughout the development of the CampusTap we
-								recognized the opportunity to bring student identity to the
-								blockchain. During the prototype development we quickly found
-								that Blockchain development was inaccessible to our JS dev team
-								and anyone looking to build an application on blockchain.
+								people. Throughout the development of CampusTap we recognized
+								the opportunity to bring student identity to the blockchain.
+								However when prototyping the proof of concept, we found
+								Blockchain development inaccessible to our JS dev team. Esprezzo
+								provides a solution for these developers and for everyone
+								looking to build applications on the blockchain.
 							</p>
 							<p>
 								CampusTap's architecture has leveraged some of the most scalable
@@ -251,7 +249,7 @@ class Contents extends Component {
 						</div>
 						<div className="column  is-5 is-offset-1 is-hidden-mobile  image-align">
 							<div>
-								<img src={campustap} width={'100%'} />
+								<img src={campustap} />
 							</div>
 						</div>
 					</div>
