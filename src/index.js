@@ -2,19 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { AppContainer } from 'react-hot-loader';
-import { Provider } from 'react-redux';
+import { Provider } from 'react-redux'; // switch for ApolloProvider
 import 'babel-polyfill';
 
-import configureStore from './js/config/store';
-import App from './app.js';
-
-import es6Promise from 'es6-promise';
-import 'isomorphic-fetch';
+import configureStore from './config/store';
+import App from './view';
 
 // Load SCSS
-import './styles/index.scss';
-
-es6Promise.polyfill();
+import './index.scss';
 
 const store = configureStore();
 
@@ -35,8 +30,8 @@ const render = Component => {
 render(App);
 
 if (module.hot) {
-  module.hot.accept('./app.js', () => {
-    const NewClient = require('./app.js').default; // eslint-disable-line global-require
+  module.hot.accept('./views', () => {
+    const NewClient = require('./views/index.js').default;
 
     render(NewClient);
   });
