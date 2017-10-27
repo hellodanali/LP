@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../assets/img/logo.png';
+import logo from '../assets/img/esprezzo_logo_white.png';
 
 class Navbar extends Component {
 	state = {

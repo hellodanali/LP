@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import secure_img from '../assets/img/blockchain_is_secure.png';
+import secure_img from '../assets/img/blockchain_is_powerful.png';
 import middleware_img from '../assets/img/programmable_middleware.png';
-import inaccessible_img from '../assets/img/but_its_inaccessible.png';
+import inaccessible_img from '../assets/img/serverless_approach.png';
 import foundation from '../assets/img/foundation@2x.png';
-import inaccessible_box from '../assets/img/inaccessible_box@2x.png';
-import blockchainagnostic from '../assets/img/blockchain_agnostic@2x.png';
+import inaccessible_box from '../assets/img/inaccessible_box.png';
+import blockchainagnostic from '../assets/img/blockchain_agnostic.png';
 import campustap from '../assets/img/campustap_placeholder@2x.png';
-import rapidDev_img from '../assets/img/rapid_dev@2x.png';
+import rapidDev_img from '../assets/img/rapid_development.png';
 class Contents extends Component {
 	render() {
 		return (
@@ -100,17 +100,21 @@ class Contents extends Component {
 								{` - As the system is based on thousands of nodes in a peer-to-peer network, and teh data is replicated and updated on each and every node, downtime is no longer a conern `}
 							</p>
 						</div>
-						<div className="column has-text-centered is-5 is-offset-1 is-hidden-mobile
+						<div className="column has-text-centered is-5 is-offset-1 is-hidden-mobile image-align
 ">
-							<img src={secure_img} />
+							<div>
+								<img src={secure_img} />
+							</div>
 						</div>
 					</div>
 				</section>
 
 				<section className="section dark-section">
 					<div className="columns">
-						<div className="column is-6 is-hidden-mobile">
-							<img src={inaccessible_box} />
+						<div className="column is-6 is-hidden-mobile image-align">
+							<div>
+								<img src={inaccessible_box} />
+							</div>
 						</div>
 						<div className="column  is-6">
 							<div className="subtitle">But it is inaccessible to most...</div>
@@ -155,15 +159,19 @@ class Contents extends Component {
 								most used, expedient and secure implementation of Ethereum.
 							</p>
 						</div>
-						<div className="column is-6 is-hidden-mobile
+						<div className="column is-6 is-hidden-mobile image-align
 ">
-							<img src={middleware_img} />
+							<div>
+								<img src={middleware_img} />
+							</div>
 						</div>
 					</div>
 
 					<div className="columns margin-t-2">
-						<div className="column  is-6">
-							<img src={blockchainagnostic} className="is-hidden-mobile" />
+						<div className="column  is-6 is-hidden-mobile image-align">
+							<div>
+								<img src={blockchainagnostic} />
+							</div>
 						</div>
 
 						<div className="column  is-6">
@@ -191,15 +199,19 @@ class Contents extends Component {
 								logic and data aggregation" layer.
 							</p>
 						</div>
-						<div className="column  is-5 is-offset-1">
-							<img src={inaccessible_img} className="is-hidden-mobile" />
+						<div className="column  is-5 is-offset-1 is-hidden-mobile image-align">
+							<div>
+								<img src={inaccessible_img} />
+							</div>
 						</div>
 					</div>
 
 					<div className="columns margin-t-2">
-						<div className="column is-6 is-hidden-mobile
+						<div className="column is-6 is-hidden-mobile image-align
 ">
-							<img src={rapidDev_img} />
+							<div>
+								<img src={rapidDev_img} />
+							</div>
 						</div>
 						<div className="column  is-6">
 							<div className="subtitle">Rapid Development</div>
@@ -237,8 +249,10 @@ class Contents extends Component {
 								platform.
 							</p>
 						</div>
-						<div className="column  is-5 is-offset-1 is-hidden-mobile">
-							<img src={campustap} className="team-img" />
+						<div className="column  is-5 is-offset-1 is-hidden-mobile  image-align">
+							<div>
+								<img src={campustap} width={'100%'} />
+							</div>
 						</div>
 					</div>
 				</section>
