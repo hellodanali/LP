@@ -19,7 +19,7 @@ class Navbar extends Component {
 							<img src={logo} />
 						</a>
 
-						<button
+						{/* <button
 							className={
 								this.state.active
 									? `button navbar-burger is-active`
@@ -32,10 +32,10 @@ class Navbar extends Component {
 							<span />
 							<span />
 							<span />
-						</button>
+						</button> */}
 					</div>
 
-					<div
+					{/* <div
 						className={
 							this.state.active ? `navbar-menu is-active` : `navbar-menu`
 						}
@@ -46,7 +46,7 @@ class Navbar extends Component {
 								<span className="request-demo">Contact Us</span>
 							</a>
 						</div>
-					</div>
+					</div> */}
 				</nav>
 			</div>
 		);

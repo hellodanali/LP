@@ -65,24 +65,33 @@
 	border-bottom: 1px solid $grey;
 }
 
+.subscribe-form {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
 .email-input-box {
 	border-radius: 30px;
 	border: none;
-	padding: 0.5rem 2rem;
 	margin-right: 1rem;
 	outline: none;
 	font-weight: 200;
 	font-size: 16px;
 	background-color: $grey;
+	height: 3rem;
+	width: 15rem;
+	padding-left: 1.5rem;
 }
 
 .button-white {
 	background-color: #fff;
 	color: $primary-text;
 	border-radius: 30px;
-	padding: 0.4rem 2rem;
 	font-weight: 500;
 	border: none;
+	height: 3rem;
+	width: 8rem;
 
 	@include sm {
 		margin-top: 1rem;
@@ -95,8 +104,10 @@
 	color: #fff;
 	border-radius: 30px;
 	border: 1px solid $blue;
-	padding: 0.4rem 2rem;
 	font-weight: 500;
+	height: 3rem;
+	width: 10rem;
+
 	&:hover {
 		color: #fff;
 	}
@@ -129,6 +140,10 @@
 	background-size: 250px auto;
 	background-repeat: no-repeat;
 	background-position: left top, 100% 100%;
+
+	@include sm {
+		background-size: 200px auto;
+	}
 }
 
 .white_bubbles_bkg {

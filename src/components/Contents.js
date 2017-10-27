@@ -16,11 +16,45 @@ class Contents extends Component {
 					<p className="has-text-centered margin-b sub-p">
 						Blockchain technology for the modern developer
 					</p>
-					<div className="margin-t-2 margin-b">
-						<input className="email-input-box" placeholder="Enter your email" />
+					<div className="margin-t-2">
+						{/* <input className="email-input-box" placeholder="Enter your email" />
 						<button type="submit" className="button-isPrimary">
 							Subscribe
-						</button>
+						</button> */}
+						<div className="margin-t-2" id="mc_embed_signup">
+							<form
+								action="https://Esprezzo.us17.list-manage.com/subscribe/post?u=748152fb359be4abd50b3695c&amp;id=3a4f8cb97d"
+								method="post"
+								id="mc-embedded-subscribe-form"
+								name="mc-embedded-subscribe-form"
+								className="validate"
+								target="_blank"
+								noValidate
+							>
+								<div id="mc_embed_signup_scroll" className="subscribe-form">
+									<label htmlFor="mce-EMAIL" />
+									<input
+										type="email"
+										value=""
+										name="EMAIL"
+										className="email email-input-box"
+										id="mce-EMAIL"
+										placeholder="Enter your email"
+										required
+									/>
+
+									<div className="clear">
+										<input
+											type="submit"
+											value="Subscribe"
+											name="subscribe"
+											id="mc-embedded-subscribe"
+											className="button button-isPrimary"
+										/>
+									</div>
+								</div>
+							</form>
+						</div>
 					</div>
 				</section>
 
@@ -211,11 +245,39 @@ class Contents extends Component {
 
 				<section className="section has-text-centered dark-section header_bubbles_bkg">
 					<h3>Stay informed on our latest news.</h3>
-					<div className="margin-t-2">
-						<input className="email-input-box" placeholder="Enter your email" />
-						<button type="submit" className="button-white">
-							Subscribe
-						</button>
+					<div className="margin-t-2" id="mc_embed_signup">
+						<form
+							action="https://Esprezzo.us17.list-manage.com/subscribe/post?u=748152fb359be4abd50b3695c&amp;id=3a4f8cb97d"
+							method="post"
+							id="mc-embedded-subscribe-form"
+							name="mc-embedded-subscribe-form"
+							className="validate"
+							target="_blank"
+							noValidate
+						>
+							<div id="mc_embed_signup_scroll" className="subscribe-form">
+								<label htmlFor="mce-EMAIL" />
+								<input
+									type="email"
+									value=""
+									name="EMAIL"
+									className="email email-input-box"
+									id="mce-EMAIL"
+									placeholder="Enter your email"
+									required
+								/>
+
+								<div className="clear">
+									<input
+										type="submit"
+										value="Subscribe"
+										name="subscribe"
+										id="mc-embedded-subscribe"
+										className="button button-white"
+									/>
+								</div>
+							</div>
+						</form>
 					</div>
 				</section>
 			</div>

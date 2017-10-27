@@ -13,6 +13,10 @@
 		border-radius: 5rem;
 		padding: 3px 10px;
 	}
+
+	@include sm {
+		padding: 0;
+	}
 }
 
 a.navbar-item:hover {
