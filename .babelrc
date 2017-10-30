@@ -4,7 +4,7 @@
     "transform-class-properties",
     "syntax-decorators"
   ],
-  "presets": [["es2015", { "modules": false }], "stage-0", "react"],
+  "presets": [["env", { "modules": false }], "stage-0", "react"],
   "env": {
     "development": {
       "plugins": ["react-hot-loader/babel"]

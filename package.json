@@ -4,19 +4,22 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "deploy": "npm run client:build && aws s3 sync build/ s3://esprezzo.io --profile esprezzo",
+    "deploy":
+      "npm run client:build && aws s3 sync build/ s3://esprezzo.io --profile esprezzo",
     "start": "node index.js",
-    "client:dev": "webpack-dashboard -t 'TheChain' -- webpack-dev-server",
+    "client:dev": "webpack-dashboard -t 'taplauncher' -- webpack-dev-server",
     "client:watch": "webpack",
-    "client:build": "npm run clean && cross-env NODE_ENV=\"production\" webpack -p --progress",
-    "client:preview": "npm run clean && cross-env NODE_ENV=\"production\" webpack-dev-server",
+    "client:build":
+      "npm run clean && cross-env NODE_ENV=\"production\" webpack -p --progress",
+    "client:preview":
+      "npm run clean && cross-env NODE_ENV=\"production\" webpack-dev-server",
     "client:build:heroku": "npm run clean && webpack",
     "clean": "rm -rf ./build",
     "postinstall": "npm run client:build:heroku",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "apollo-client": "^2.0.1",
+    "apollo-client": "^1.8.0",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.7.2",
     "babel-loader": "^7.1.1",
@@ -25,7 +28,7 @@
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-plugin-transform-runtime": "^6.6.0",
     "babel-polyfill": "^6.23.0",
-    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.5.0",
     "babel-preset-react-optimize": "^1.0.1",
     "babel-preset-stage-0": "^6.16.0",
@@ -59,6 +62,7 @@
     "webpack-dashboard": "^1.0.0-5",
     "webpack-dev-server": "^2.6.1"
   },
-  "description": "Frontend boilerplate and webpack build for React/Redux/GraphQL projects",
+  "description":
+    "Frontend boilerplate and webpack build for React/Redux/GraphQL projects",
   "author": "MarcusHurney"
 }

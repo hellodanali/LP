@@ -63,7 +63,7 @@ if (IS_DEVELOPMENT) {
 // Webpack config
 module.exports = {
   devtool: IS_PRODUCTION ? false : 'cheap-eval-source-map',
-  context: paths.javascript,
+  context: paths.source,
   watch: !IS_PRODUCTION,
   entry,
   output: {

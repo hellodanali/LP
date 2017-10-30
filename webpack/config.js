@@ -4,12 +4,10 @@ const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const autoprefixer = require('autoprefixer');
 
-// adjust paths
 const paths = {
   source: path.join(__dirname, '../src'),
-  javascript: path.join(__dirname, '../src/js'),
-  images: path.join(__dirname, '../src/assets/img'),
-  svg: path.join(__dirname, '../src/assets/svg'),
+  images: path.join(__dirname, '../src/view/assets/img'),
+  svg: path.join(__dirname, '../src/view/assets/svg'),
   build: path.join(__dirname, '../build')
 };
 
@@ -180,7 +178,7 @@ const resolve = {
     '.js',
     '.jsx'
   ],
-  modules: [path.join(__dirname, '../node_modules'), paths.javascript]
+  modules: [path.join(__dirname, '../node_modules'), paths.source]
 };
 
 module.exports = {

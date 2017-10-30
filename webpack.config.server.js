@@ -11,7 +11,7 @@ const config = {
   target: 'node',
   watch: !IS_PRODUCTION,
   devtool: IS_PRODUCTION ? false : 'source-map',
-  context: paths.javascript,
+  context: paths.source,
   entry: ['./server.js'],
   output: {
     path: paths.build,

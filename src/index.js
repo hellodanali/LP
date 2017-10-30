@@ -6,7 +6,7 @@ import { Provider } from 'react-redux'; // switch for ApolloProvider
 import 'babel-polyfill';
 
 import configureStore from './config/store';
-import App from './view';
+import App from './view/index.js';
 
 // Load SCSS
 import './index.scss';
@@ -30,8 +30,8 @@ const render = Component => {
 render(App);
 
 if (module.hot) {
-  module.hot.accept('./views', () => {
-    const NewClient = require('./views/index.js').default;
+  module.hot.accept('./view/', () => {
+    const NewClient = require('./view/index.js').default;
 
     render(NewClient);
   });
