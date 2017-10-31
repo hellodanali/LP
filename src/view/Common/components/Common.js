@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import logo from '../../../assets/img/logo.png';
 
 class Common extends Component {
   render() {
     return (
       <div className="common_container">
-        <h1>Welcome to the TapLauncher!</h1>
+        <div>
+          <img src={logo} />
+        </div>
       </div>
     );
   }

@@ -6,8 +6,8 @@ const autoprefixer = require('autoprefixer');
 
 const paths = {
   source: path.join(__dirname, '../src'),
-  images: path.join(__dirname, '../src/view/assets/img'),
-  svg: path.join(__dirname, '../src/view/assets/svg'),
+  images: path.join(__dirname, '../src/assets/img'),
+  svg: path.join(__dirname, '../src/assets/svg'),
   build: path.join(__dirname, '../build')
 };
 
