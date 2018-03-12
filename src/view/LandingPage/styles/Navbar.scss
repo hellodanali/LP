@@ -1,0 +1,65 @@
+@import '../../../assets/helpers/variables.scss';
+
+.navbar-container {
+	width: 124rem;
+	height: 6rem;
+	background-color: #fff;
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 1.8rem;
+	color: $nav-text-color;
+
+	.bc-logo {
+		width: 30rem;
+		height: 3rem;
+	}
+
+	.request-demo-nav {
+		border: 1px solid $brand-color-light;
+		color: $brand-color-light;
+		padding: 1rem 1.5rem;
+		outline: none;
+		cursor: pointer;
+		border-radius: 3px;
+	}
+
+	.login {
+		color: $brand-color-light;
+	}
+
+	ul {
+		list-style-type: none;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+
+		li {
+			margin: 0 1.5rem;
+		}
+
+		.icon {
+			display: none;
+		}
+	}
+
+	@include sm {
+		width: 100%;
+		height: 5rem;
+		padding-left: 1rem;
+		.bc-logo {
+			width: 25rem;
+			height: 2.5rem;
+		}
+		.nav-item {
+			display: none;
+		}
+		.icon {
+			display: inline-block !important;
+			cursor: pointer;
+		}
+	}
+}

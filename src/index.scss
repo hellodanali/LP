@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 @import './assets/helpers/normalize.scss';
 @import './assets/helpers/breakpoints.scss';
-@import './view/Common/styles/index.scss';
+@import './view/LandingPage/styles/index.scss';
 
 .root {
-  min-height: 100vh;
-  min-width: 100vw;
-  display: flex;
-  flex-direction: column;
+	min-height: 100vh;
+	min-width: 100vw;
+	box-sizing: border-box;
+	font-family: 'Lato';
+	font-weight: 400;
+}
 
-  .page {
-    flex: 1;
-  }
+html {
+	font-size: 62.5%;
 }

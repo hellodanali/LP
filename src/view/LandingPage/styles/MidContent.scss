@@ -1,0 +1,21 @@
+.content-container {
+	display: flex;
+	flex-direction: column;
+	.row {
+		width: 124rem;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-wrap: wrap;
+		margin: 1rem 0;
+	}
+
+	@include sm {
+		padding: 0 40%;
+		.row {
+			width: 100%;
+			justify-content: center;
+			margin: 0;
+		}
+	}
+}

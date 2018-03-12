@@ -1,17 +1,17 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import CommonContainer from '../view/Common/containers/CommonContainer';
+import LandingPage from '../view/LandingPage/components/LandingPage';
 
 const publicPath = '/';
 
 export const routeCodes = {
-  COMMON: publicPath,
-  OTHER: `${publicPath}other`
+	COMMON: publicPath,
+	OTHER: `${publicPath}other`
 };
 
 export default () => (
-  <Switch>
-    <Route exact path={routeCodes.COMMON} component={CommonContainer} />
-  </Switch>
+	<Switch>
+		<Route exact path={routeCodes.COMMON} component={LandingPage} />
+	</Switch>
 );
