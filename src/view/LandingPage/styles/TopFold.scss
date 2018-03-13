@@ -5,6 +5,7 @@
 	position: relative;
 	height: 79rem;
 	color: #fff;
+	margin-top: 6rem;
 
 	.related {
 		color: $text-color-dark;
@@ -70,7 +71,7 @@
 
 	@include sm {
 		height: 100%;
-
+		margin-top: 5rem;
 		.light-blue {
 			height: 30rem;
 			justify-content: flex-start;
